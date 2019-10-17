@@ -1,0 +1,19 @@
+extends default
+
+block content
+    div.contactme(style=`display: none;`)(id=`contactme`)
+        form(action='/send_message', method='POST' name='contactform' onsubmit='return validate()')
+            div.contactname
+                input(type='text', name='name', id='contactname', placeholder='Name')
+            div.contactcompany
+                input(type='text', name='company', id='contactcompany', placeholder='Company')
+            div.contactemail
+                input(type='text', name='email', id='contactemail',  placeholder='Your email')
+            div.contactmessage
+                textarea(name='message', id='messagearea', placeholder='Your Message')
+            input(type='submit', value='Submit', id='submitmessage')
+
+    script.
+        setTimeout(function(){
+            $('#contactme').fadeIn("fast");
+        },10);

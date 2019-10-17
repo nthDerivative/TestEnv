@@ -1,0 +1,19 @@
+extends default
+
+block content
+    div.projectcontainer(style=`display: none;`)(id=`projectcontainer`)
+        each project in projectslist
+            div.project
+                div.projectittle
+                    | - #{project.title} -
+                div.projectsummary
+                    | #{project.summary}
+                div.viewprojectdetails(onclick=`projdetails("${project.description}","${project.github}","${project.title}","${project.imgSrc}");`)
+                    | Project Details
+                        
+    script.
+        setTimeout(function(){
+            $('#projectcontainer').fadeIn("fast");
+        },10);
+
+block append footer

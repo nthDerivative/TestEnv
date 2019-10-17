@@ -1,0 +1,45 @@
+{
+  "profiles": [
+    {
+      "title": "Resume built with Node",
+      "summary": "A node.js application using Express and Pug as the view engine.",
+      "description": "My goal was to develop an online resume using a full-stack development approach.  The project was developed in Visual Studio with GitHub as the hosting platform, version control, and future collaboration.   For depolyment, I'm using Docker to build the container and Docker Hub for publishing the project. For my hosting needs, the project is being deployed onto my personal Linux-based server.  Leveraging Nginx, a local reverse proxy with Let's Encrypt, and Docker, the project is served with SHA256 based encryption through a self-signed SSL certificate.  The project's data is stored in JSON files which provide a simple method to adjust the language used throughout the pages.  Looking ahead to the next stage of this project, I plan to move to a web-based approach to manage the information.",
+      "github": "https://github.com/nthDerivative/Resume",
+      "imgSrc": "node.svg",
+      "id": "p1"
+    },
+    {
+      "title": "My Homelab",
+      "summary": "My on-premise server",
+      "description": "My homelab is used for hosting my projects and daily use applications, such as Plex, Nextcloud, and my network management solution, Unifi.  The server is able to issue SSL certificates for services through a reverse proxy managed locally with Let's Encrypt.  This sever also stores and serves my personal files which can be securely accessed from anywhere.",
+      "github": "",
+      "imgSrc": "server.png",
+      "id": "p2"
+    },
+    {
+      "title": "File Organizer",
+      "summary": "A series of python scripts written to organize my personal media files",
+      "description": "I'm an avid collector of movies and music.  These scripts are written with the goal of organizing my media in a fashion that is recognized by my media player of choice - Plex.",
+      "github": "https://github.com/nthDerivative/FileOrganizer/",
+      "imgSrc": "fileorg.png",
+      "id": "p3"
+    },
+
+    {
+      "title": "ESP-8266 Lighting Firmware",
+      "summary": "Lighting Profiles written for the ESP8266 & leveraging Home Assistant for deployment",
+      "description": "I've integrated the majority of my household devices into a local home automation platform - Home Assistant.  I've created custom lighting solutions with the ESP-8266, a low cost Wi-Fi equiped microcontroller.  This is a collection of my lighting routines.",
+      "github": "https://github.com/nthDerivative/Lights",
+      "imgSrc": "ha.svg",
+      "id": "p4"
+    },
+    {
+      "title": "Modern Task",
+      "summary": "An experiement in using C# to create a modern approach to the Windows Task Manager",
+      "description": "In an effort to familarize myself with C#, XAML and the UWP framework, I started a small project on creating a simple windows task manager.  This project is no longer in development.",
+      "github": "https://github.com/nthDerivative/ModernTask",
+      "imgSrc": "project1.jpg",
+      "id": "p5"
+    }
+  ]
+}
