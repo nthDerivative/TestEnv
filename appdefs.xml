@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Containers>
-  <TemplateURL>https://raw.githubusercontent.com/nthderivative/resume/master/appdefs.xml</TemplateURL>
+  <TemplateURL>https://raw.githubusercontent.com/nthderivative/testenv/master/appdefs.xml</TemplateURL>
   <Beta>False</Beta>
   <Category>Productivity: Tools:</Category>
   <Name>resume</Name>
@@ -11,9 +11,9 @@
     My NodeResume
   </Overview>
   <Support></Support>
-  <Registry>https://hub.docker.com/r/nthderivative/resume</Registry>
-  <GitHub>https://github.com/nthderivative/Resume/tree/master/</GitHub>
-  <Repository>nthderivative/resume</Repository>
+  <Registry>https://hub.docker.com/r/nthderivative/testenv</Registry>
+  <GitHub>https://github.com/nthderivative/testenv/tree/master/</GitHub>
+  <Repository>nthderivative/testenv</Repository>
   <Project>https://resume.hirosky.com</Project>
   <BindTime>true</BindTime>
   <Privileged>true</Privileged>
